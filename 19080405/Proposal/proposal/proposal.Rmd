@@ -1,0 +1,58 @@
+---
+title: "Title"
+author: 
+  - Last Name, First Name[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: https://github.com/Sarpkoc52/19080405)
+
+
+
+# Introduction
+Sports are of great importance for human health. Sport prolongs human life and provides a quality life. In general, people do sports on their own to be healthy. There are also athletes who see sports as a job and do it professionally. These athletes move at an intense pace from their nutrition to their training. Due to the work they do, they have to stay fit and in shape all the time. There are multiple sports branches. Some athletes gravitate towards team sports, while others gravitate towards individual sports. Football, basketball and volleyball can be shown as the biggest examples of team sports. Boxing, tennis and chess are examples of individual sports. Licensed athletes practice these sports branches professionally. In this study, I will analyze the number of professional athletes according to sports branches and the gender of professional athletes. I will examine the sports branches preferred by the athletes, which gender is more inclined to choose which sport, and the number of licensed athletes with the data I have. 
+
+## Literature Review
+
+Sports have played a role in every culture from past to present. Sport has always been in human life. It is not known exactly when the sport started. We can say that the first example of sport in history was hunting. This was the way for people to continue their lives. If we talk about the history of the sport, we can see the first traces in the ancient Greeks. The ancient Greeks gave great importance to competitions. This situation caused the Olympics to take place, and the Olympics have evolved from the past to the present.  [@Joseph Anthony Maguire, David Charles Rowe, Allen Guttmann, 2023]
+
+   Sports, in every moment of our lives. All living things are in motion by nature, and this brings sports to the center of life. We carry sports with us from childhood to old age. Activities such as walking, running and jumping form the basis of sports, and human beings do these activities actively from birth to death.
+   
+   Sport has many benefits for human health. Being physically active can improve your brain health, help manage weight, reduce the risk of disease, strengthen bones and muscles, and improve your ability to do everyday activities. Sports also help you sleep more comfortably. Sports also have mental health benefits. Prevents intense stress, sleep problems. Sports also strengthen the muscles and make you look beautiful. [@Joseph Anthony Maguire, David Charles Rowe, Allen Guttmann, 2023]
+  
+  Sports is a large global business. Billions of dollars are spent at sporting events, on sports teams, on sports events, as well as on sports-related equipment and apparel. Professional sports is an industry that the whole world follows with interest. Watching a match by millions is an example of this. People pay to watch the matches of their favorite team and buy the products of their favorite team because they are fans. This leads to a large amount of money in this sector. [@Ellen Terrell, 2015]
+   
+   As in every country, there are licensed athletes in Turkey. In 2014, there are 3219324 licensed athletes. According to these data, we see that the rate of male athletes is 3 times higher than female athletes in Turkey. The branch with the highest number of athletes in Turkey is chess. Sledding is the branch with the least number of athletes in Turkey.	Chess is the most preferred sport by both genders. The least preferred sport of both sexes is sledding. [@TUIK, 2015]
+
+
+\newpage
+# References {#references}
+<div id="refs"></div>
+
